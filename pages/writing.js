@@ -4,52 +4,52 @@ const articles = [
   {
     title: "Developing an Advanced YOLOv5 Object Detection Model to Detect Computer Peripherals in Video Footage, with Tracking Algorithm and Edge Detection Integration",
     description: "Detailed final project report, the culmination of a Master of Science in AI at the University of York. Distinction graded. Paper available on request.",
-    thumbnail: "\images\finalprojectsnippet.png/",
+    thumbnail: "/images/finalprojectsnippet.png",
   },
   {
     title: "A Critical Reflection on the Societal Implications of the Development and Deployment of AI in the Creative Industries",
     description: "A 13 page thesis surrounding the use of AI in Hollywood, particularly regarding the SAG-AFTRA strikes in 2023, grounded in ethical frameworks typically referred to in Sociology. Distinction graded. Available on request.",
-    thumbnail: "\images\sociologythesissnippet.png",
+    thumbnail: "/images/sociologythesissnippet.png",
   },
   {
     title: "Leveraging AI for Vegan and Vegetarian Food Product Innovation: The Veggie Noodles Project",
     description: "A report on the use and viability of AI tools to conduct market research, product development, and advertising materials for a prepare-at-home v/ve noodle-in-a-cup project. Distinction graded. Available on request.",
-    thumbnail: "kimli-portfoliocd\public\images\veggienoodlessnippet.png",
+    thumbnail: "/images/veggienoodlessnippet.png",
   },
   {
     title: "RPG Storytelling after the Pandemic",
     link: "https://thestray.org/2023/04/13/video-gaming-after-the-pandemic-why-rpg-storytelling-is-thriving-more-than-ever/",
-    thumbnail: "\images\videogamingafterthepandemic.png",
+    thumbnail: "/images/videogamingafterthepandemic.png",
   },
   {
     title: "How to Market a Book",
     link: "https://www.writing.ie/resources/how-to-market-a-book-in-2022-by-kim-littler/",
-    thumbnail: "\images\meforwritingie.jpg",
+    thumbnail: "/images/meforwritingie.jpg",
   },
   {
     title: "Five Things to Know About Getting an Audiobook Out Into the World",
     link: "https://www.writing.ie/resources/five-things-to-know-about-getting-an-audiobook-out-into-the-world-by-kim-littler/",
-    thumbnail: "\images\meforwritingie.jpg",
+    thumbnail: "/images/meforwritingie.jpg",
   },
   {
     title: "Affect vs Effect",
     link: "https://blog.reedsy.com/affect-vs-effect/",
-    thumbnail: "\images\affectvseffect.png",
+    thumbnail: "/images/affectvseffect.png",
   },
   {
     title: "Types of Poetry",
     link: "https://blog.reedsy.com/guide/poetry/",
-    thumbnail: "\images\typesofpoetry.png",
+    thumbnail: "/images/typesofpoetry.png",
   },
   {
     title: "The 13 Best Fantasy Map Generators",
     link: "https://blog.reedsy.com/fantasy-map-generators/",
-    thumbnail: "\images\mygeneratedmap.jpg",
+    thumbnail: "/images/mygeneratedmap.jpg",
   },
   {
     title: "Artificial Intelligence in Digital Media: How We Can Shape the Future with AI",
     link: "https://thestray.org/2023/04/04/artificial-intelligence-in-digital-media-how-we-can-shape-the-future-with-ai/",
-    thumbnail: "\images\aiguy.jpg",
+    thumbnail: "/images/aiguy.jpg",
   }
 ];
 

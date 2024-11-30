@@ -11,7 +11,7 @@ const projects = [
       "Applied PyTorch and TensorFlow frameworks.",
       "Researched and authored an in-depth 39 page technical report detailing every iteration of the project. (Available upon request.)",
     ],
-    images: ["\images\HeadphoneHighlight.png", "\images\PCHighlight.png", "\images\finalprojectfigures.png"],
+    images: ["/images/HeadphoneHighlight.png", "/images/PCHighlight.png", "/images/finalprojectfigures.png"],
     github: "https://github.com/KML-Fig09/YOLOV5-CBAM-Object-Detection",
   },
   {
@@ -32,7 +32,7 @@ const projects = [
       "Demonstrated scalability with large datasets.",
       "Integrated Spotipy API Successfully.",
     ],
-    images: ["\images\spotipyreadme.jpeg", "\images\spotipylogo.png"],
+    images: ["/images/spotipyreadme.jpeg", "/images/spotipylogo.png"],
     github: "https://github.com/KML-Fig09/Spotify-Song-Predictor",
   },
   {
@@ -44,7 +44,7 @@ const projects = [
         "Leveraged multiple ML and data management skills and applications for a single project.",
         "Later expanded on PowerApps's somewhat limited UI Design using Figma Wireframe strategies.",
     ],
-    image: "\images\sentimentanalysisscreencap.png",
+    image: "/images/sentimentanalysisscreencap.png",
     github: "add app python code to github",
   },
   {
@@ -54,7 +54,7 @@ const projects = [
       "Utilised prompt engineering skills to leverage ChatGPT, Microsoft CoPilot, Gemini, RunwayML, and Dall-E.",
       "Managed Microsoft CoPilot and GPT back-and-forth collaboration to improve prompts and generate iterative business plans, user profiles, and market research; as well as precise prompt for Dall-E and RunwayML.",
     ],
-    image: "\images\veggienoodlessnippet.png",
+    image: "/images/veggienoodlessnippet.png",
     github: "add readme to github",
   }
 ];
