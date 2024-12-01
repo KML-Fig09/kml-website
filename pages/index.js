@@ -28,7 +28,7 @@ export default function Home() {
         </p>
         <div className="mt-6">
           <h3 className="text-2xl font-semibold">Academic Achievements:</h3>
-          <ul className="list-disc list-inside mt-4 text-lg">
+          <ul className="list-disc list-inside mt-4 text-lg text-muted-8892b0">
             <li>MSc in Artificial Intelligence for the Creative Industries: Graduated with Distinction and earned the School Award for Top GPA.</li>
             <li>BA in English Literature (With Placement Year): Graduated with a High 2:1, and worked as a Content Marketer for Reedsy for 13 months.</li>
           </ul>
