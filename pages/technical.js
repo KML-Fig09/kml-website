@@ -20,7 +20,6 @@ const projects = [
     features: [
       "TBA.",
     ],
-    image: "",
     github: "TBA",
   },
   {
@@ -62,7 +61,7 @@ const projects = [
 export default function TechnicalPortfolio() {
   return (
     <Layout>
-      <section className="max-w-5xl mx-auto py-10 px-6">
+      <section className="bg-background-dark text-foreground-light max-w-5xl mx-auto py-10 px-6">
         <h2 className="text-4xl font-bold text-center mb-10">Technical Portfolio</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project, index) => (

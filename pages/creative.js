@@ -21,7 +21,7 @@ const creativeProjects = [
 export default function Creative() {
   return (
     <Layout>
-      <section className="max-w-5xl mx-auto py-10 px-6">
+      <section className="bg-background-dark text-foreground-light max-w-5xl mx-auto py-10 px-6">
         <h2 className="text-4xl font-bold text-center mb-10">Creative Portfolio</h2>
         <div className="space-y-10">
           {creativeProjects.map((project, index) => (

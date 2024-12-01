@@ -22,7 +22,7 @@ export default function Home() {
               rel="noopener noreferrer" 
               className="text-teal-500 hover:underline"
             >
-            <space></space>FuturePrint Tech’s Podcast
+            &nbsp;FuturePrint Tech’s Podcast
             </a>, discussing “What is AI?”
           </li>
         </p>
@@ -50,7 +50,7 @@ export default function Home() {
         </div>
         <div className="mt-6">
           <h3 className="text-2xl font-semibold">Interests:</h3>
-          <p className="mt-4">
+          <p className="mt-4 text-lg">
             Lifelong gamer, competitive fencer, and creative writer. Passionate about gaming, strategic thinking, and 
             fostering diverse ideas through a high level of communication skill.
           </p>
