@@ -3,7 +3,7 @@ import Layout from '/components/Layout';
 export default function Contact() {
   return (
     <Layout>
-      <section className="bg-background-dark text-foreground-light max-w-4xl mx-auto py-10 px-6">
+      <section className="background-background-dark text-foreground-light max-w-4xl mx-auto py-10 px-6">
         <h2 className="text-4xl font-bold text-center mb-6">Contact Me</h2>
         <p className="text-lg text-center mb-10">
           Feel free to reach out through the form below or find me on these platforms:
