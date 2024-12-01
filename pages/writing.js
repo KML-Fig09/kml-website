@@ -53,10 +53,12 @@ const articles = [
   }
 ];
 
+import Layout from '/components/Layout';
+
 export default function Writing() {
   return (
     <Layout>
-      <section className="bg-background-dark text-foreground-light max-w-5xl mx-auto py-10 px-6">
+      <section className="bg-background-dark text-foreground-light py-10 px-6">
         <h2 className="text-4xl font-bold text-center mb-10">Writing Portfolio</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {articles.map((article, index) => (
@@ -65,7 +67,7 @@ export default function Writing() {
               href={article.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="border rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
+              className="border border-border-color rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow bg-secondary-dark"
             >
               <img
                 src={article.thumbnail}
@@ -74,6 +76,7 @@ export default function Writing() {
               />
               <div className="p-4">
                 <h3 className="text-2xl font-bold">{article.title}</h3>
+                <p className="text-text-muted mt-2">{article.description}</p>
               </div>
             </a>
           ))}
@@ -82,3 +85,4 @@ export default function Writing() {
     </Layout>
   );
 }
+
