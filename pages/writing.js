@@ -53,8 +53,6 @@ const articles = [
   }
 ];
 
-import Layout from '/components/Layout';
-
 export default function Writing() {
   return (
     <Layout>
