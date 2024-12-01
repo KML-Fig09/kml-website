@@ -5,7 +5,7 @@ export default function Home() {
     <Layout>
       <section className="text-center py-20 bg-gradient-to-r from-teal-500 to-purple-600 text-white">
         <h1 className="text-5xl font-bold">Kim Littler</h1>
-        <p className="mt-4 text-xl">AI / ML Consultant and Engineer, and Game Design Enthusiast</p>
+        <a className="mt-4 text-xl">AI / ML Consultant and Engineer, and Game Design Enthusiast</a>
       </section>
       <section className="max-w-4xl mx-auto py-10 px-6">
         <h2 className="text-3xl font-bold">About Me</h2>
@@ -22,7 +22,7 @@ export default function Home() {
               rel="noopener noreferrer" 
               className="text-teal-500 hover:underline"
             >
-              FuturePrint Tech’s Podcast
+            <space></space>FuturePrint Tech’s Podcast
             </a>, discussing “What is AI?”
           </li>
         </p>

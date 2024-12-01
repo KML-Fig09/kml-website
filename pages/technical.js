@@ -11,7 +11,7 @@ const projects = [
       "Applied PyTorch and TensorFlow frameworks.",
       "Researched and authored an in-depth 39 page technical report detailing every iteration of the project. (Available upon request.)",
     ],
-    images: ["/images/HeadphoneHighlight.png", "/images/PCHighlight.png", "/images/finalprojectfigures.png"],
+    image: "/images/HeadphoneHighlight.png",
     github: "https://github.com/KML-Fig09/YOLOV5-CBAM-Object-Detection",
   },
   {
@@ -32,7 +32,7 @@ const projects = [
       "Demonstrated scalability with large datasets.",
       "Integrated Spotipy API Successfully.",
     ],
-    images: ["/images/spotipyreadme.jpeg", "/images/spotipylogo.png"],
+    image: "/images/spotipylogo.png",
     github: "https://github.com/KML-Fig09/Spotify-Song-Predictor",
   },
   {
@@ -96,7 +96,7 @@ export default function TechnicalPortfolio() {
           ))}
           {/* Placeholder for future projects */}
           <div className="border rounded-lg overflow-hidden shadow-lg bg-gray-100 flex items-center justify-center">
-            <p className="text-gray-600">Add your next project here!</p>
+            <p className="text-gray-600">Future projects incoming!</p>
           </div>
         </div>
       </section>
