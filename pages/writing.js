@@ -53,11 +53,15 @@ const articles = [
   }
 ];
 
+import Layout from '/components/Layout';
+
 export default function Writing() {
   return (
     <Layout>
       <section className="bg-background-dark text-foreground-light py-10 px-6">
-        <h2 className="text-4xl font-bold text-center mb-10">Writing Portfolio</h2>
+        <h2 className="text-4xl font-bold text-primary-green text-center mb-10">
+          Writing Portfolio
+        </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {articles.map((article, index) => (
             <a
@@ -73,7 +77,9 @@ export default function Writing() {
                 className="w-full h-48 object-cover"
               />
               <div className="p-4">
-                <h3 className="text-2xl font-bold">{article.title}</h3>
+                <h3 className="text-2xl font-bold text-foreground-light">
+                  {article.title}
+                </h3>
                 <p className="text-text-muted mt-2">{article.description}</p>
               </div>
             </a>

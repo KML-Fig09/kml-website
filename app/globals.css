@@ -26,24 +26,22 @@ body {
 }
 
 /* Typography */
-h1,
-h2,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Space Grotesk", sans-serif;
-  color: var(--foreground-light);
+  color: var(--foreground-light); 
   margin: 0;
 }
 
-h3 {
-  font-family: "Space Gotesk", sans-serif, bold;
-  color: var(--text-muted);
-  margin: 0;
-  padding: 0;
-  line-height: 1.8;
-  overflow-x: hidden;
+/* Override heading colors for specific sections */
+.bg-background-dark h1,
+.bg-background-dark h2,
+.bg-background-dark h3,
+.bg-background-dark h4,
+.bg-background-dark h5,
+.bg-background-dark h6 {
+  color: var(--primary-green); /* Use green for contrast in dark sections */
 }
+
 
 p {
   color: var(--text-muted);
