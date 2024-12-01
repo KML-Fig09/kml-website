@@ -20,6 +20,7 @@ const projects = [
     features: [
       "TBA.",
     ],
+    image: "/images/unsplash image sword ricardo cruz.jpg",
     github: "TBA",
   },
   {

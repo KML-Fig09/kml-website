@@ -3,7 +3,7 @@ import Layout from '/components/Layout';
 const articles = [
   {
     title: "Developing an Advanced YOLOv5 Object Detection Model to Detect Computer Peripherals in Video Footage, with Tracking Algorithm and Edge Detection Integration",
-    description: "Detailed final project report, the culmination of a Master of Science in AI at the University of York. Distinction graded. Paper available on request.",
+    description: "Detailed final project report, the culmination of a Master of Science in AI at the University of York. Distinction graded. Available on request.",
     thumbnail: "/images/finalprojectsnippet.png",
   },
   {

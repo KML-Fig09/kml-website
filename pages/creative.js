@@ -3,7 +3,7 @@ import Layout from '/components/Layout';
 const creativeProjects = [
   {
     title: "Academic Design Projects",
-    images: ["/images/DMLogoTransp2.png", "/images/Eli3.png", "/images/MindMazeStudiosLogo.png", "/images/SCupNoodleVideo3.mp4", "/images/_4c769aae-83d8-47b8-a885-67f346de956a.jpeg", "/images/_9b291970-b3a9-4693-870c-e7cd112fd8ea.jpeg"],
+    images: ["/images/DMLogoTransp2.png", "/images/Eli3.png", "/images/MindMazeStudiosLogo.png", "/images/_4c769aae-83d8-47b8-a885-67f346de956a.jpeg", "/images/_9b291970-b3a9-4693-870c-e7cd112fd8ea.jpeg"],
     description: "Character designs, logos, and video game additions, made for an academic group project wherein we developed a use case indie fantasy game, as well as images generated for use in a project aimed at developing a personal start-up business from start to finish with minimal human involvement and maximum LLM leverage."
   },
   {
