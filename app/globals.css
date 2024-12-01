@@ -62,6 +62,13 @@ ul {
     system-ui, sans-serif;
 }
 
+Li {  
+  color: var(--text-muted);
+  text-decoration: none;
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif;
+}
+
 /* Buttons */
 button {
   background: var(--primary-green);

@@ -15,7 +15,7 @@ export default function Home() {
           with creative problem-solving, focusing on developing AI-driven solutions that make a difference. 
           <br />
           <li>
-            Recently appeared on: 
+            Recently appeared on:  
             <a 
               href="https://www.futureprint.tech/podcast/what-is-ai-kim-littler" 
               target="_blank" 
