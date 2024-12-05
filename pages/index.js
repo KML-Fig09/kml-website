@@ -10,14 +10,14 @@ export default function Home() {
       <section className="max-w-4xl mx-auto py-10 px-6">
         <h2 className="text-3xl font-bold">About Me</h2>
         <p className="mt-4 text-lg">
-          Hi, I&lsquo;m Kim. Nice to meet you!\n
-          
-          I am a highly motivated Artificial Intelligence and Machine Learning Engineer with an MSc in Artificial Intelligence for the Creative Industries (Distinction) from the University of York, where I earned The School Award for achieving the highest grade point average across the course. I specialize in blending technical AI and ML expertise 
-          with creative problem-solving.\n My unique blend of skills, combining coding, data handling, and AI proficiency with a background in marketing, SEO, and social media, gives me a unique insight into problems faced by both business and creatives, while maintaining and developing a technical skillstack that allows me to solve those painpoints once identified. 
+          Hi, I&lsquo;m Kim. Nice to meet you!
+          <br />
+          Highly motivated Artificial Intelligence and Machine Learning Engineer with an MSc in Artificial Intelligence for the Creative Industries (Distinction) from the University of York, where I earned The School Award for achieving the highest grade point average across the course. I specialize in blending technical AI and ML expertise 
+          with creative problem-solving. <br /> My unique blend of skills, combining coding, data handling, and AI proficiency with a background in marketing, SEO, and social media, gives me a unique insight into problems faced by both business and creatives, while maintaining and developing a technical skillstack that allows me to solve those painpoints once identified. 
           I am passionate about using my plethora of academic and professional experience to develop strong AI-driven solutions that solve tangible, real-world, problems.
           <br />
           <li>
-            \n I also recently appeared on  
+            I also recently appeared on  
             <a 
               href="https://www.futureprint.tech/podcast/what-is-ai-kim-littler" 
               target="_blank" 
