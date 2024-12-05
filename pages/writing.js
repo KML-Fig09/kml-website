@@ -72,7 +72,7 @@ export default function Writing() {
               <img
                 src={article.thumbnail}
                 alt={article.title}
-                className="w-full h-48 object-cover"
+                className="img-responsive rounded shadow"
               />
               <div className="p-4">
                 <h3 className="text-2xl font-bold text-foreground-light">
@@ -87,4 +87,3 @@ export default function Writing() {
     </Layout>
   );
 }
-

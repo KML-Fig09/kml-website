@@ -73,7 +73,7 @@ export default function TechnicalPortfolio() {
               <img
                 src={project.image}
                 alt={project.name}
-                className="w-full h-48 object-cover"
+                className="img-responsive rounded shadow"
               />
               <div className="p-6">
                 <h3 className="text-2xl font-bold">{project.name}</h3>
