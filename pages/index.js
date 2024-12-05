@@ -10,27 +10,29 @@ export default function Home() {
       <section className="max-w-4xl mx-auto py-10 px-6">
         <h2 className="text-3xl font-bold">About Me</h2>
         <p className="mt-4 text-lg">
-          I am a highly motivated AI and Machine Learning Researcher with an MSc in Artificial Intelligence for the 
-          Creative Industries (Distinction) from the University of York. I specialize in blending technical expertise 
-          with creative problem-solving, focusing on developing AI-driven solutions that make a difference. 
+          Hi, I'm Kim. Nice to meet you!
+          
+          I am a highly motivated Artificial Intelligence and Machine Learning Engineer with an MSc in Artificial Intelligence for the Creative Industries (Distinction) from the University of York, where I earned The School Award for achieving the highest grade point average across the course. I specialize in blending technical AI and ML expertise 
+          with creative problem-solving. My unique blend of skills, combining coding, data handling, and AI proficiency with a background in marketing, SEO, and social media, gives me a unique insight into problems faced by both business and creatives, while maintaining and developing a technical skillstack that allows me to solve those painpoints once identified. 
+          I am passionate about using my plethora of academic and professional experience to develop strong AI-driven solutions that solve tangible, real-world, problems.
           <br />
           <li>
-            Recently appeared on:  
+            I also recently appeared on  
             <a 
               href="https://www.futureprint.tech/podcast/what-is-ai-kim-littler" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-teal-500 hover:underline"
             >
-            &nbsp;FuturePrint Tech’s Podcast
-            </a>, discussing “What is AI?”
+            &nbsp;FuturePrint Tech’s Podcast,
+            </a>, talking about the solutions (and problems) brought about by AI in 2024:
           </li>
         </p>
         <div className="mt-6">
           <h3 className="text-2xl font-semibold">Academic Achievements:</h3>
           <ul className="list-disc list-inside mt-4 text-lg">
             <li>MSc in Artificial Intelligence for the Creative Industries: Graduated with Distinction and earned the School Award for Top GPA.</li>
-            <li>BA in English Literature (With Placement Year): Graduated with a High 2:1, and worked as a Content Marketer for Reedsy for 13 months.</li>
+            <li>BA in English Literature (With Placement Year): Graduated with a High 2:1, with a 13-month industry placement in marketing and SEO in-between.</li>
           </ul>
         </div>
         <div className="mt-6">
@@ -51,8 +53,8 @@ export default function Home() {
         <div className="mt-6">
           <h3 className="text-2xl font-semibold">Interests:</h3>
           <p className="mt-4 text-lg">
-            Lifelong gamer, competitive fencer, and creative writer. Passionate about gaming, strategic thinking, and 
-            fostering diverse ideas through a high level of communication skill.
+            Lifelong gamer, competitive fencer, and outdoors enthusiast. Passionate about gaming, learning, and 
+            fostering diverse insights and solutions through a high level of communication skill.
           </p>
         </div>
       </section>
