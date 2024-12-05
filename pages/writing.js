@@ -1,4 +1,5 @@
 import Layout from '/components/Layout';
+import Image from 'next/image';
 
 const articles = [
   {
@@ -69,7 +70,7 @@ export default function Writing() {
               rel="noopener noreferrer"
               className="border border-border-color rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow bg-secondary-dark"
             >
-              <img
+              <Image
                 src={article.thumbnail}
                 alt={article.title}
                 className="img-responsive rounded shadow"

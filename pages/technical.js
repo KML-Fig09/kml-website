@@ -1,4 +1,6 @@
 import Layout from '/components/Layout';
+import Image from 'next/image';
+
 
 const projects = [
   {
@@ -70,7 +72,7 @@ export default function TechnicalPortfolio() {
               key={index}
               className="border rounded-lg overflow-hidden shadow-lg bg-white"
             >
-              <img
+              <Image
                 src={project.image}
                 alt={project.name}
                 className="img-responsive rounded shadow"

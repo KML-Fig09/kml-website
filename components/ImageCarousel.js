@@ -3,6 +3,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import Image from 'next/image';
 
 export default function ImageCarousel({ images }) {
   const settings = {
@@ -32,7 +33,7 @@ export default function ImageCarousel({ images }) {
     <Slider {...settings}>
       {images.map((image, index) => (
         <div key={index}>
-          <img
+          <Image
             src={image}
             alt={`Carousel item ${index + 1}`}
             className="rounded-lg shadow-md w-full h-48 object-cover"

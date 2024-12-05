@@ -10,7 +10,7 @@ export default function Home() {
       <section className="max-w-4xl mx-auto py-10 px-6">
         <h2 className="text-3xl font-bold">About Me</h2>
         <p className="mt-4 text-lg">
-          Hi, I'm Kim. Nice to meet you!
+          Hi, I&lsquo;m Kim. Nice to meet you!
           
           I am a highly motivated Artificial Intelligence and Machine Learning Engineer with an MSc in Artificial Intelligence for the Creative Industries (Distinction) from the University of York, where I earned The School Award for achieving the highest grade point average across the course. I specialize in blending technical AI and ML expertise 
           with creative problem-solving. My unique blend of skills, combining coding, data handling, and AI proficiency with a background in marketing, SEO, and social media, gives me a unique insight into problems faced by both business and creatives, while maintaining and developing a technical skillstack that allows me to solve those painpoints once identified. 
