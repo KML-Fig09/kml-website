@@ -121,8 +121,8 @@ button:hover {
 
 /* Layout & Sections */
 section {
-  padding: 4rem 2rem;
-  border-bottom: 1px solid var(--border-color);
+  padding: 2rem 1rem;
+ /* border-bottom: 1px solid var(--border-color); */
 }
 
 section:nth-of-type(even) {
@@ -130,9 +130,10 @@ section:nth-of-type(even) {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1200px; 
+  width: 100%; 
+  padding: 0 1rem; 
   margin: 0 auto;
-  padding: 0 1rem;
 }
 
 /* Header */

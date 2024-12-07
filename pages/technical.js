@@ -66,7 +66,7 @@ export default function TechnicalPortfolio() {
     <Layout>
       <section className="bg-background-dark text-foreground-light max-w-5xl mx-auto py-10 px-6">
         <h2 className="text-4xl font-bold text-center mb-10">Technical Portfolio</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <div
               key={index}
@@ -75,7 +75,9 @@ export default function TechnicalPortfolio() {
               <Image
                 src={project.image}
                 alt={project.name}
-                className="img-responsive rounded shadow"
+                width={500}
+                height={300}
+                className="rounded shadow"
               />
               <div className="p-6">
                 <h3 className="text-2xl font-bold">{project.name}</h3>
@@ -96,10 +98,6 @@ export default function TechnicalPortfolio() {
               </div>
             </div>
           ))}
-          {/* Placeholder for future projects */}
-          <div className="border rounded-lg overflow-hidden shadow-lg bg-gray-100 flex items-center justify-center">
-            <p className="text-gray-600">Future projects incoming!</p>
-          </div>
         </div>
       </section>
     </Layout>

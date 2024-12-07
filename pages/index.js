@@ -13,7 +13,7 @@ export default function Home() {
           Hi, I&lsquo;m Kim. Nice to meet you!
           <br />
           Highly motivated Artificial Intelligence and Machine Learning Engineer with an MSc in Artificial Intelligence for the Creative Industries (Distinction) from the University of York, where I earned The School Award for achieving the highest grade point average across the course. I specialize in blending technical AI and ML expertise 
-          with creative problem-solving. <br /> My unique blend of skills, combining coding, data handling, and AI proficiency with a background in marketing, SEO, and social media, gives me a unique insight into problems faced by both business and creatives, while maintaining and developing a technical skillstack that allows me to solve those painpoints once identified. 
+          with creative problem-solving. <br /> My unique blend of skills, combining coding, data handling, and AI proficiency with a background in marketing, SEO, and social media, gives me a unique insight into problems faced by both business and creatives. <br /> 
           I am passionate about using my plethora of academic and professional experience to develop strong AI-driven solutions that solve tangible, real-world, problems.
           <br />
           <li>

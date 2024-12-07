@@ -1,6 +1,9 @@
 import Link from 'next/link';
+import { useState } from 'react';
 
 export default function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <header className="bg-background-dark text-foreground-light sticky top-0 z-50 border-b border-border-color shadow-md">
       <nav className="container mx-auto flex items-center justify-between py-4 px-6">
@@ -9,7 +12,17 @@ export default function Header() {
             Kim Littler
           </Link>
         </h1>
-        <div className="flex space-x-8 text-lg font-medium tracking-wide">
+        <button
+          className="block md:hidden text-foreground-light"
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          ☰
+        </button>
+        <div
+          className={`${
+            menuOpen ? 'block' : 'hidden'
+          } md:flex md:items-center md:space-x-8 text-lg font-medium tracking-wide`}
+        >
           <Link
             href="/technical"
             className="hover:text-primary-green transition duration-300"
