@@ -12,41 +12,53 @@ export default function Header() {
             Kim Littler
           </Link>
         </h1>
+        {/* Hamburger Icon for Mobile */}
         <button
-          className="block md:hidden text-foreground-light"
+          className="block md:hidden text-foreground-light focus:outline-none"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           ☰
         </button>
+        {/* Dropdown Menu */}
         <div
           className={`${
             menuOpen ? 'block' : 'hidden'
-          } md:flex md:items-center md:space-x-8 text-lg font-medium tracking-wide`}
+          } absolute top-16 left-0 w-full bg-background-dark md:static md:block md:w-auto`}
         >
-          <Link
-            href="/technical"
-            className="hover:text-primary-green transition duration-300"
-          >
-            Technical
-          </Link>
-          <Link
-            href="/creative"
-            className="hover:text-primary-green transition duration-300"
-          >
-            Design
-          </Link>
-          <Link
-            href="/writing"
-            className="hover:text-primary-green transition duration-300"
-          >
-            Writing
-          </Link>
-          <Link
-            href="/contact"
-            className="hover:text-primary-green transition duration-300"
-          >
-            Contact Me
-          </Link>
+          <ul className="flex flex-col md:flex-row md:space-x-8 text-lg font-medium tracking-wide">
+            <li>
+              <Link
+                href="/technical"
+                className="block py-2 px-4 hover:text-primary-green transition duration-300"
+              >
+                Technical
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/creative"
+                className="block py-2 px-4 hover:text-primary-green transition duration-300"
+              >
+                Design
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/writing"
+                className="block py-2 px-4 hover:text-primary-green transition duration-300"
+              >
+                Writing
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/contact"
+                className="block py-2 px-4 hover:text-primary-green transition duration-300"
+              >
+                Contact Me
+              </Link>
+            </li>
+          </ul>
         </div>
       </nav>
     </header>
