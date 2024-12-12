@@ -23,7 +23,7 @@ export default function Header() {
         <div
           className={`${
             menuOpen ? 'block' : 'hidden'
-          } absolute top-16 right-0 w-64 bg-blue-900 text-foreground-light rounded-md hover: shadow-lg opacity-100 md:static md:block md:w-auto`}
+          } absolute top-16 right-0 w-64 bg-blue-950 text-foreground-light rounded-md hover: shadow-lg opacity-100 md:static md:block md:w-auto`}
         >
           <ul className="flex flex-col bg-background-dark md:flex-row md:space-x-8 text-lg font-medium tracking-wide">
             <li>
