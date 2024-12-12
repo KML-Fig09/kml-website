@@ -49,7 +49,7 @@ const articles = [
   },
   {
     title: "The 13 Best Fantasy Map Generators",
-    description: "A 'best of' list, wherein I researched and detailed hte best fantasy map generators available. The article was aimed at writers, but many of the tools are used for game design and D&D purposes.",
+    description: "A 'best of' list, wherein I researched and detailed the best fantasy map generators available. The article was aimed at writers, but many of the tools are used for game design and D&D purposes.",
     link: "https://blog.reedsy.com/fantasy-map-generators/",
     thumbnail: "/images/mygeneratedmap.jpg",
   },
