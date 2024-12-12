@@ -23,9 +23,9 @@ export default function Header() {
         <div
           className={`${
             menuOpen ? 'block' : 'hidden'
-          } absolute top-16 right-0 w-64 bg-background-dark text-foreground-light rounded-md shadow-lg md:static md:block md:w-auto`}
+          } absolute top-16 right-0 w-64 bg-background-dark text-foreground-light rounded-md hover: shadow-lg opacity-100 md:static md:block md:w-auto`}
         >
-          <ul className="flex flex-col md:flex-row md:space-x-8 text-lg font-medium tracking-wide">
+          <ul className="flex flex-col bg-background-dark md:flex-row md:space-x-8 text-lg font-medium tracking-wide">
             <li>
               <Link
                 href="/technical"
